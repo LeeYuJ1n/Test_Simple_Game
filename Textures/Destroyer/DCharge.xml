@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:45f30bea49d9f44c9c4b67a5863514f4:7c89fa787de53681ea6b5eb76357d847:234c64d7609c448e82578c99fb1328a3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="DCharge.png" width="320" height="64">
+  <sprite n="DCharge__000.png" x="1" y="1" w="127" h="128" pX="0.5" pY="0.5"/>
+  <sprite n="DCharge__001.png" x="128" y="1" w="127" h="128" pX="0.5" pY="0.5"/>
+  <sprite n="DCharge__002.png" x="256" y="1" w="127" h="128" pX="0.5" pY="0.5"/>
+  <sprite n="DCharge__003.png" x="384" y="1" w="127" h="128" pX="0.5" pY="0.5"/>
+  <sprite n="DCharge__004.png" x="384" y="1" w="127" h="128" pX="0.5" pY="0.5"/>
+</TextureAtlas>
